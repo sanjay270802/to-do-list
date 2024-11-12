@@ -1,0 +1,73 @@
+body{
+    justify-items: center;
+    background: url(./img/final1.avif);
+    background-repeat: no-repeat;
+    background-size: 1800px;
+}
+
+h1{
+    text-align: center;
+    font-size: xxx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.opacity{
+    border: 1px solid grey;
+    padding: 20px;
+    margin: 50px;
+    background-color: rgb(164, 162, 162);
+    opacity: 0.7;
+    border-radius: 10px;
+}
+
+.box1{
+    display: flex;
+    button{
+        padding-right:20px;
+        padding-left:20px;
+        margin: 5px;
+        border-radius: 10px;
+        border-color: rgb(22, 230, 22);
+        border-width: 2px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    input{
+        width: 700px;
+        height: 40px;
+        margin: 10px;
+        border-radius: 10px;
+        border-color: rgb(110, 206, 174);
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+
+.box2{
+    border: 1px solid rgb(11, 103, 137);
+    max-width: 800px;
+    border-radius: 9px;
+   li{
+    border-bottom: 1px solid gray;
+    border-radius: 9px;
+    padding: 10px;
+    align-items: center;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size:large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+   button{
+    background-color: rgb(215, 65, 65);
+    border-radius: 9px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+}
+
+.addbutton:hover{
+    background-color: rgb(73, 224, 70);
+    cursor: pointer;
+    transition-duration: 300ms;
+}
+
